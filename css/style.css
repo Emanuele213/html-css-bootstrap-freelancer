@@ -10,7 +10,7 @@ ul {
     list-style-type: none;
 }
 
-.color-container {
+.color-container-green {
     background-color: #1abc9c;
     color: var(--bs-white);
 }
@@ -29,4 +29,10 @@ ul {
 .icon-mod:hover {
     color: white;
     border: 1px solid white;
+}
+
+.box-color {
+    height: 300px;
+    width: 300px;
+    background-color: salmon;
 }
