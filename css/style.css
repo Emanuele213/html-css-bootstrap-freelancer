@@ -36,3 +36,16 @@ ul {
     width: 300px;
     background-color: salmon;
 }
+
+p {
+    text-align: justify;
+}
+
+.download {
+    background-color: #1abc9c;
+    text-decoration: none;
+    padding: 1rem;
+    border: 1px solid white;
+    border-radius: .5rem;
+    color: white;
+}
