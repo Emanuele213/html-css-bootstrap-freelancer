@@ -9,3 +9,24 @@ header {
 ul {
     list-style-type: none;
 }
+
+.color-container {
+    background-color: #1abc9c;
+    color: var(--bs-white);
+}
+
+.img-size {
+    width: 200px;
+    height: 200px;
+}
+
+.icon-mod {
+    color: lightgrey;
+    border: 1px solid lightgray;
+    padding: 0.2rem 0.5rem;
+}
+
+.icon-mod:hover {
+    color: white;
+    border: 1px solid white;
+}
