@@ -2,6 +2,8 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
+    /* header */
+
 .header-page {
 	background-color: #1ABC9C;
     color: var(--bs-white);
@@ -26,6 +28,8 @@ body {
 	height: 100px;
 	background-color: white;
 }
+
+    /* main */
 
 .portfolio {
     color: #2c3e50;
@@ -95,4 +99,27 @@ body {
 
 .btn-send {
 	background-color: #1abc9c;
+}
+
+    /* footer */
+
+.info-area {
+    background-color: #3a546d;
+    color: white;
+}
+
+.icon_footer {
+    font-size: 2rem;
+    border: 1px solid var(--bs-white);
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+.green-text {
+    color: #1abc9c;
+}
+
+.copyright {
+    background-color: #2c3e50;
+    color: white;
 }
