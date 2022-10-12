@@ -1,109 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap Freelancer</title>
     <!-- Fontawesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <!-- JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"
+        defer></script>
     <!-- My-style -->
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <header class="bg_grey">
-        <div class="container container-sm container-md container-xxl">
-            <div class="row">
-                <div class="col-12 d-flex justify-content-between align-items-center">
-                    <h1 class="fs-3">START BOOTSTRAP</h1>
-                    <ul class="d-flex pt-3 px-0">
-                        <li class="d-none d-md-block pe-3">PORTFOLIO</li>
-                        <li class="d-none d-md-block pe-3">ABOUT</li>
-                        <li class="d-none d-md-block ">CONTACT</li>
-                        <li class="d-md-none"><i class="fa-solid fa-bars fs-3 icon-mod"></i></li>
+    <header class="header-page">
+        <nav class="navbar navbar-expand-sm nav_top ">
+            <div class="container container-sm  container-xxl">
+                <a class="navbar-brand nav_top" href="#">START BOOTSTRAP</a>
+                <button class="navbar-toggler color_white " type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="color_white navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link color_white " href="#">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link color_white " href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link color_white " href="#">CONTACT</a>
+                        </li>
                     </ul>
                 </div>
             </div>
-        </div>
+        </nav>
+        <section class="container py-4 text-center text-uppercase">
+            <img class="col-3 mb-3" src="img/avatar.svg" alt="">
+            <h1>Start bootstrap</h1>
+            <div class="col-4 star"></div>
+            <p>Lorem ipsum, dolor sit amet consectetur</p>
+        </section>
     </header>
 
     <main>
-        <!-- Prima parte -->
-        <div class="color-container-green">
-            <div class="container container-sm container-md container-xxl">
-                <div class="row text-center">
-                    <div class="col-12 d-flex justify-content-center">
-                        <img src="img/avatar.svg" alt="avatar" class="img-size">
-                    </div>
-                    <h2 class="fs-1 mt-1">START BOOTSTRAP</h2>
-                    <!-- manca la stella -->
-                    <h3 class="fs-6 mt-1">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h3>
-                </div>
-            </div>
-        </div>
-        <!-- Seconda parte PORTFOLIO-->
-        <div class="color-container-white">
-            <div class="container container-sm container-md container-xxl">
-                <div class="row text-center">
-                    <div class="col-12">
-                        <h1 class="col-12 fs-2 mt-5">PORTFOLIO</h1>
-                        <!-- immagini -->
-                       <div class="row">
-                            <!-- Prima immagine -->
-                            <div class="col-12 col-md-6 col-xxl-4 d-flex justify-content-center mt-5">
-                                <div class="box-color"></div>
+        <section class="portfolio py-4">
+            <div class="container text-center">
+                <h2>Portfolio</h2>
+                <div class="col-4 star"></div>
+
+                <div class="overflow-hidden">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                        <div class="col">
+                            <div class="bl_card">
+                                <img class="img-fluid" src="img/cabin.png" alt="">
                             </div>
-                            <!-- Seconda immagine -->
-                            <div class="col-12 col-md-6 col-xxl-4 d-flex justify-content-center mt-5">
-                                <div class="box-color"></div>
-                            </div>
-                            <!-- Terza immagine -->
-                            <div class="col-12 col-md-6 col-xxl-4 d-flex justify-content-center mt-5">
-                                <div class="box-color"></div>
-                            </div>
-                            <!-- Quarta immagine -->
-                            <div class="col-12 col-md-6 col-xxl-4 d-flex justify-content-center mt-5">
-                                <div class="box-color"></div>
-                            </div>
-                            <!-- Quinta immagine -->
-                            <div class="col-12 col-md-6 col-xxl-4 d-flex justify-content-center mt-5">
-                                <div class="box-color"></div>
-                            </div>
-                            <!-- Sesta immagine -->
-                            <div class="col-12 col-md-6 col-xxl-4 d-flex justify-content-center mt-5 mb-5">
-                                <div class="box-color"></div>
-                            </div>
-                       </div>
+                        </div>
+                        <div class="col">
+                            <div class="bl_card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nemo
+                                porro, molestiae sit minus </div>
+                        </div>
+                        <div class="col">
+                            <div class="bl_card"></div>
+                        </div>
+                        <div class="col">
+                            <div class="bl_card"></div>
+                        </div>
+                        <div class="col">
+                            <div class="bl_card"></div>
+                        </div>
+                        <div class="col">
+                            <div class="bl_card"></div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- Terza parte ABOUT-->
-        <div class="color-container-green">
-            <div class="container container-sm container-md container-xxl">
-                <div class="row text-center">
-                    <div class="col-12">
-                        <h1 class="fs-2 mt-5">ABOUT</h1>
-                        <p class="fs-5 lh-1 offset-1 col-10">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium sunt nihil accusamus quibusdam nam optio praesentium! Illum recusandae repudiandae similique mollitia voluptate dolorum quod reprehenderit suscipit voluptates optio! Ea, temporibus.
-                        </p>
-                        <div class="mt-5"></div>
-                        <p class="fs-5 lh-1 offset-1 col-10">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium sunt nihil accusamus quibusdam nam optio praesentium! Illum recusandae repudiandae similique mollitia voluptate dolorum quod reprehenderit suscipit voluptates optio! Ea, temporibus.
-                        </p>
-                        <button class="download"><i class="fa-solid fa-download fs-3"></i> Download</button>
+        </section>
+
+        <section class="about py-4">
+            <div class="container text-center text-white">
+                <div class="col-10 mx-auto">
+                    <h2>About</h2>
+                    <div class="col-4 star"></div>
+
+                    <div class="overflow-hidden">
+                        <div class="row text-start g-5">
+                            <div class="col-12 col-sm-6">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta suscipit sit deserunt
+                                repellat optio impedit, libero maxime quo esse repellendus? Harum labore cupiditate
+                                dolore possimus necessitatibus perspiciatis facilis id hic!
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi sapiente cupiditate
+                                velit nesciunt? Unde nihil illum amet iste fuga rerum vero similique porro eos animi
+                                laudantium veniam ratione, a eveniet.
+                            </div>
+                        </div>
                     </div>
+
+                    <!-- ... e tanti altri modi -->
+
+                    <a class="btn btn-outline-light" href="#!">
+                        Download
+                    </a>
                 </div>
             </div>
-        </div>
+        </section>
+
+        <section class="contact py-4">
+            <div class="container">
+                <div class="col-10 mx-auto">
+                    <h2 class="text-center">Contact me</h2>
+                    <div class="col-4 star"></div>
+
+                    <form action="" method="post">
+
+                        <button class="btn btn-primary btn-send">Invia</button>
+                    </form>
+                </div>
+            </div>
+
+
+        </section>
     </main>
 
     <footer>
 
     </footer>
 </body>
+
 </html>
