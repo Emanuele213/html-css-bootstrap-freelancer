@@ -52,38 +52,61 @@
             <img class="col-3 mb-3" src="img/avatar.svg" alt="">
             <h1>Start bootstrap</h1>
             <div class="col-4 star"></div>
-            <p>Lorem ipsum, dolor sit amet consectetur</p>
+            <p>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
         </section>
     </header>
 
     <main>
         <section class="portfolio py-4">
-            <div class="container text-center">
+            <div class="container d-flex flex-column align-items-center">
                 <h2>Portfolio</h2>
-                <div class="col-4 star"></div>
-
+                <!-- stella e linea -->
+                <div class="col-4 d-flex star align-items-center justify-content-center">
+                    <div class="line_star"></div>
+                    <div><i class="fa-solid fa-star fs-2 mx-1 my-4"></i></div>
+                    <div class="line_star"></div>
+                </div>
                 <div class="overflow-hidden">
                     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                        <!-- Prima immagine -->
                         <div class="col">
                             <div class="bl_card">
-                                <img class="img-fluid" src="img/cabin.png" alt="">
+                                <img class="img-fluid" src="img/cabin.png" alt="Baita">
                             </div>
                         </div>
+                        <!-- Seconda immagine -->
                         <div class="col">
-                            <div class="bl_card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nemo
-                                porro, molestiae sit minus </div>
+                            <div class="bl_card">
+                                <img class="img-fluid" src="img/cake.png" alt="Torta">
+                            </div> 
                         </div>
+                        <!-- Terza immagine -->
                         <div class="col">
-                            <div class="bl_card"></div>
+                            <div class="bl_card">
+                                <img class="img-fluid" src="img/circus.png" alt="Circo">
+                            </div>
                         </div>
+                        <!-- Quarta immagine -->
                         <div class="col">
-                            <div class="bl_card"></div>
+                            <div class="bl_card">
+                                <img class="img-fluid" src="img/game.png" alt="Gioco">
+                            </div>
                         </div>
+                        <!-- Quinta immagine -->
                         <div class="col">
-                            <div class="bl_card"></div>
+                            <div class="bl_card">
+                                <img class="img-fluid" src="img/safe.png" alt="Cassaforte">
+                            </div>
                         </div>
+                        <!-- Sesta immagine -->
                         <div class="col">
-                            <div class="bl_card"></div>
+                            <div class="bl_card">
+                                <div class="overlay-container">
+                                    <img class="img-fluid img-over" src="img/submarine.png" alt="Sottomarino">
+                                    <div class="bg_over"></div>
+                                    <div class="img-overlay"><i class="fa-solid fa-plus"></i></div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -92,10 +115,14 @@
 
         <section class="about py-4">
             <div class="container text-center text-white">
-                <div class="col-10 mx-auto">
+                <div class="col-10 d-flex flex-column align-items-center mx-auto">
                     <h2>About</h2>
-                    <div class="col-4 star"></div>
-
+                    <!-- stella e linea -->
+                    <div class="col-4 d-flex star align-items-center justify-content-center">
+                        <div class="line_star"></div>
+                        <div><i class="fa-solid fa-star fs-2 mx-1 my-4"></i></div>
+                        <div class="line_star"></div>
+                    </div>
                     <div class="overflow-hidden">
                         <div class="row text-start g-5">
                             <div class="col-12 col-sm-6">
@@ -110,11 +137,8 @@
                             </div>
                         </div>
                     </div>
-
-                    <!-- ... e tanti altri modi -->
-
-                    <a class="btn btn-outline-light" href="#!">
-                        Download
+                    <a class="btn btn-outline-light mt-3" href="#!">
+                        <i class="fa-solid fa-download fs-3"></i> Download
                     </a>
                 </div>
             </div>
@@ -122,18 +146,29 @@
 
         <section class="contact py-4">
             <div class="container">
-                <div class="col-10 mx-auto">
+                <div class="col-10 d-flex flex-column align-items-center mx-auto">
                     <h2 class="text-center">Contact me</h2>
-                    <div class="col-4 star"></div>
-
+                    <!-- stella e linea -->
+                    <div class="col-4 d-flex star align-items-center justify-content-center">
+                        <div class="line_star"></div>
+                        <div><i class="fa-solid fa-star fs-2 mx-1 my-4"></i></div>
+                        <div class="line_star"></div>
+                    </div>
+                </div>
+                <div class="col-10 mx-auto">
                     <form action="" method="post">
-
-                        <button class="btn btn-primary btn-send">Invia</button>
+                        <div class="col-8 mx-auto">
+                            <label class="form-labelm fs-3">Name</label>
+                            <input type="text" class="form-control border_fix" placeholder="" aria-label="">
+                            <label for="exampleInputEmail1" class="form-label fs-3">Email address</label>
+                            <input type="email" class="form-control border_fix" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="col-8 mx-auto ">
+                            <button class="btn btn-primary btn-send my-3">Invia</button>
+                          </div>    
                     </form>
                 </div>
             </div>
-
-
         </section>
     </main>
 
